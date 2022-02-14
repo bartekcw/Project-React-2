@@ -1,13 +1,65 @@
-body {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.mainbox {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #f2d8c4;
+  justify-content: center;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.titlebox {
+  display: flex;
+  font-size: 38px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.box1 {
+  font-size: 32px;
+  background-color: #f2d8c4;
+  margin-left: 15px;
+}
+
+.formbox {
+  display: flex;
+  position: absolute;
+  left: 50px;
+  top: 110px;
+}
+
+.inputamount {
+  width: 100px;
+}
+
+.endbox {
+  display: flex;
+}
+
+.formtext1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.formtext2 {
+  font-weight: 600;
+}
+
+.formtext3 {
+  font-weight: 600;
+  margin-left: 5px;
 }
